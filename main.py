@@ -118,7 +118,7 @@ class RacingEVDashboard:
             return False
 
 
-    def parse_bms_data(self, line):
+    def parse_data(self, line):
 
         # Beispiel: SOC:84.5;VOLT:186.2;CURR:12.4;POWER:2308.9
 
