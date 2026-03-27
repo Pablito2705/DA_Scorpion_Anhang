@@ -120,7 +120,9 @@ class RacingEVDashboard:
 
     def parse_data(self, line):
 
-        # Beispiel: SOC:84.5;VOLT:186.2;CURR:12.4;POWER:2308.9
+        # Beispiel:
+        # SOC:84;VOLT:57.4;CURR:13.76;POWER:700.0;TMOTOR:51.0;TBATT:41.0;SPEED:21;
+        # RPM:1307;ODO:260;LORA:1
 
         # Zeile bei ; trennen
         fields = line.strip().split(";")
